@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Website - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Account Summary</h2>
+        <div id="account-summary">
+            <p>Account Balance: $0.00</p>
+        </div>
+        <section>
+            <h2>Transfer Funds</h2>
+            <form id="transfer-form">
+                <label for="recipient">Recipient Account:</label>
+                <input type="text" id="recipient" name="recipient" required>
+
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" name="amount" required>
+
+                <button type="submit">Transfer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Our Bank</p>
+    </footer>
+</body>
+</html>
